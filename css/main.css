@@ -1,0 +1,190 @@
+ /* FONT */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Mulish&display=swap');
+
+/* ZEROING */
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none; font-family: 'DM Sans', sans-serif; font-weight: 700;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/* MAIN SETTINGS */
+
+.nav-item {
+    font-size: 15px;
+    margin-right: 49px;
+    letter-spacing: -0.468947px;
+    color: #19191B;
+    position: relative;
+    transition: 0.3s ease;
+}
+.active::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    background: #5454D4;
+    top: 100%;
+    left: 25%;
+    opacity: 1 !important;
+}
+.nav-link::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    background: #5454D4;
+    top: 100%;
+    left: 25%;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+}
+.nav-link:hover::after {
+    opacity: 1;
+}
+.last {
+    margin-right: 0;
+}
+.get__started {
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: -0.531474px;
+    background: #FF7143;
+    border-radius: 10px;
+    padding: 19px 60px;
+    text-align: center;
+    text-decoration: none;
+    filter: drop-shadow(0px 0px 16px rgba(216, 120, 30, 0.24));
+    transition: 0.3s ease;
+}
+.get__started:hover {
+    color: #fff;
+    filter: none;
+}
+/* OFFER */
+.offer {
+    margin-top: 100px;
+}
+.offer__title {
+    font-size: 80px;
+    line-height: 77px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.offer__subtitle {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Mulish';
+    color: #696871;
+    letter-spacing: -0.63px;
+    margin-bottom: 50px;
+}
+.offer__btn {
+    width: 315px !important;
+}
+.offer__started {
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'DM Sans';
+    letter-spacing: -0.53px;
+    line-height: 22px;
+    background: #5454D4;
+    border-radius: 10px;
+    padding: 19px 60px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s ease;
+}
+.offer__started:hover {
+    filter: drop-shadow(0px 0px 16px rgba(84, 84, 212, 0.44));
+    color: #fff;
+}
+.offer__arrow {
+    display: block;
+    transition: 0.3s ease;
+}
+.offer__arrow:hover {
+    transform: translateY(5px);
+}
+/* BRANDS */
+.brand__img {
+    transition: 0.5s ease;
+}
+.brand__img:hover {
+    transform: scale(1.05);
+}
+/*================ SUBSCRIPTION =================*/
+.subscription {
+    margin-top: 160px;
+}
+.subscription__img-block {
+    margin-right: 165px;
+}
+.subscription__title {
+    font-size: 50px;
+    font-weight: 700;
+    color: #19191B;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    margin-bottom: 30px;
+}
+.subscription__subtitle {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    font-family: 'Mulish';
+    margin-bottom: 30px;
+    width: 459px;
+}
+.sub__btn {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    text-decoration: none;
+    display: block;
+    color: #5454D4;
+    transition: 0.5s ease;
+}
+.sub__btn:hover {
+    color: #5454D4;
+    filter: drop-shadow(0px 0px 16px rgba(68, 68, 191, 0.54));
+    transform: translateY(5px);
+}

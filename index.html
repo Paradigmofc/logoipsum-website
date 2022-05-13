@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--------- CSS --------->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--------- BOOTSTRAP FONT-AWESOME --------->
+    <script src="https://kit.fontawesome.com/6eac0bf17d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!--------- SITE NAME --------->
+    <title>Logoipsum</title>
+</head>
+<body>
+    <!--------- HEADER --------->
+    <header id="header" class="header">
+        <a id="button" class="show"></a>
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <nav class="navbar navbar-expand-lg navbar-light bg-transparent wow fadeIn mt-4">
+                    <a class="navbar-brand me-5" href="#header">
+                        <img src="img/Logo-header.svg" alt="Image" class="logotype">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav align-items-center mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link last" href="#blog">Blog</a>
+                          </li>
+                      </ul>
+                      <div class="login__section justify-content-center justify-content-lg-end d-flex align-items-center col-lg-4">
+                          <a href="#get" class="get__started">Get Started</a>
+                      </div>
+                    </div>
+              </nav>
+            </div>
+        </div>
+    </header>
+<!--------- MAIN --------->
+    <main class="main" id="main">
+      <!--------------- OFFER ----------------->
+      <div class="offer" id="offer">
+        <div class="container">
+          <div class="row">
+            <div class="offer__wrapper d-flex justify-content-between align-items-center">
+              <div class="col col-lg-4 me-5">
+                <div class="offer__text">
+                  <h1 class="offer__title">
+                    Grow your subscription business
+                  </h1>
+                  <p class="offer__subtitle">
+                    Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.
+                  </p>
+                </div>
+                <div class="offer__btn d-flex align-items-center justify-content-between">
+                  <a href="#get" class="offer__started">Get Started</a>
+                  <a href="#get" class="offer__arrow"><img src="img/Down_Arrow.png" alt="Image" class="offer__img-arrow"></a>
+                </div>
+              </div>
+              <div class="col col-lg-6 ms-4">
+                <div class="offer__img">
+                  <img src="img/Hero3D.png" alt="3D Man" class="offer-img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!----------------- BRANDS ----------------->
+      <div class="brands mt-5">
+        <div class="container">
+          <div class="row justify-content-center flex-column flex-lg-row justify-content-lg-between align-items-center">
+            <div class="col-2"><img src="img/logo-offer1.svg" alt="Image" class="brand__img"></div>
+            <div class="col-2"><img src="img/logo-offer2.svg" alt="Image" class="brand__img"></div>
+            <div class="col-2"><img src="img/logo-offer3.svg" alt="Image" class="brand__img"></div>
+            <div class="col-2"><img src="img/logo-offer4.svg" alt="Image" class="brand__img"></div>
+            <div class="col-2"><img src="img/logo-offer5.svg" alt="Image" class="brand__img"></div>
+          </div>
+        </div>
+      </div>
+      <!----------------- SUBSCRIPTION ----------------->
+      <div class="subscription">
+        <div class="container">
+          <div class="row">
+            <div class="d-flex subscription__wrapper justify-content-around align-items-center">
+                <div class="col col-lg-4">
+                  <div class="subscription__img-block">
+                    <img src="img/Hero2.png" alt="Image" class="subscription__img">
+                  </div>
+                </div>
+                <div class="col col-lg-5">
+                  <div class="subsciption__text">
+                    <h2 class="subscription__title">
+                      Subscription index
+                    </h2>
+                    <p class="subscription__subtitle">
+                      A daily dataset to keep you up to date on subscription market trends and what's happening in your vertical.
+                    </p>
+                    <a href="#more" class="sub__btn">Learn more</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+<!------------ SCRIPTS ------------>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
