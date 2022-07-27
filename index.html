@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/morphext.css">
 
     <!--------- BOOTSTRAP FONT-AWESOME --------->
     <script src="https://kit.fontawesome.com/6eac0bf17d.js" crossorigin="anonymous"></script>
@@ -61,10 +62,10 @@
         <div class="container">
           <div class="row">
             <div class="offer__wrapper d-flex justify-content-between align-items-center">
-              <div class="col col-lg-4 me-5">
+              <div class="col col-lg-4 me-5 wow fadeInLeft">
                 <div class="offer__text">
                   <h1 class="offer__title">
-                    Grow your subscription business
+                    <span id="js-rotating">Grow, Get, Rise</span> your subscription business
                   </h1>
                   <p class="offer__subtitle">
                     Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.
@@ -75,7 +76,7 @@
                   <a href="#get" class="offer__arrow"><img src="img/Down_Arrow.png" alt="Image" class="offer__img-arrow"></a>
                 </div>
               </div>
-              <div class="col col-lg-6 ms-4">
+              <div class="col col-lg-6 ms-4 wow fadeInRight">
                 <div class="offer__img">
                   <img src="img/Hero3D.png" alt="3D Man" class="offer-img">
                 </div>
@@ -101,12 +102,12 @@
         <div class="container">
           <div class="row">
             <div class="d-flex subscription__wrapper justify-content-around align-items-center">
-                <div class="col col-lg-4">
+                <div class="col col-lg-4 wow fadeInLeft">
                   <div class="subscription__img-block">
                     <img src="img/Hero2.png" alt="Image" class="subscription__img">
                   </div>
                 </div>
-                <div class="col col-lg-5">
+                <div class="col col-lg-5 wow fadeInRight">
                   <div class="subsciption__text">
                     <h2 class="subscription__title">
                       Subscription index
@@ -121,6 +122,140 @@
           </div>
         </div>
       </div>
+      <!----------------- METRICS ----------------->
+      <div class="metrics">
+        <div class="container">
+          <div class="row">
+            <div class="d-flex metrics__wrapper justify-content-around align-items-center">
+              <div class="col col-lg-5 wow fadeInLeft">
+                <div class="metrics__text">
+                  <h2 class="metrics__title">
+                    In-depth metrics
+                  </h2>
+                  <p class="metrics__subtitle">
+                    Accurate, real-time reporting at your fingertips. Getting data has never been easier.
+                  </p>
+                  <a href="#more" class="metrics__btn">Learn more</a>
+                </div>
+              </div>
+              <div class="col col-lg-4 wow fadeInRight">
+                <div class="metrics__img-block">
+                  <img src="img/Content-image.png" alt="Image" class="metrics__img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!----------------- ICONS ----------------->
+      <div class="icons">
+        <div class="container">
+          <div class="row">
+            <div class="d-flex icons__wrapper text-center justify-content-between align-items-center">
+              <div class="icon__block wow fadeInLeft">
+                <img src="img/Benchmark.png" alt="Image" class="icon">
+                <h4 class="icon__title">
+                  Benchmarks
+                </h4>
+                <p class="icon__text">
+                  See how you stack up against comparable companies in similar stages.
+                </p>
+              </div>
+              <div class="icon__block wow fadeInUp">
+                <img src="img/Pricing.png" alt="Image" class="icon">
+                <h4 class="icon__title">
+                  Pricing Audit
+                </h4>
+                <p class="icon__text">
+                  Benchmark the health of your monetization and pricing strategy.
+                </p>
+              </div>
+              <div class="icon__block wow fadeInRight">
+                <img src="img/Camera.png" alt="Image" class="icon">
+                <h4 class="icon__title">
+                  Retention Audit
+                </h4>
+                <p class="icon__text">
+                  Audit where revenue leakage exists and where you can increase retention.
+                </p>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <!----------------- PRICING ----------------->
+      <div class="pricing">
+        <div class="container">
+          <div class="row">
+            <div class="pricing__wrapper">
+              <div class="pricing__title-block d-flex justify-content-between align-items-center">
+                <h1 class="pricing__title">
+                  Get the right plan for future product.
+                </h1>
+                <div class="pricing__btns">
+                  <button class="yearly">Yearly</button>
+                  <button class="monthly">Monthly</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="pricing__tablets mt-5 d-flex justify-content-around align-items-center flex-wrap flex-lg-nowrap">
+              <!----- Price 1 ----->
+              <div class="col-12 col-lg-4 wow fadeInLeftBig" data-wow-delay=".4s">
+                <div class="price-item text-center">
+                  <h5 class="price-header">
+                    Starter
+                  </h5>
+                  <p class="actual-price">
+                    Free
+                  </p>
+                  <ul class="price-list">
+                    <li>1 Website</li>
+                    <li>5 GB Hosting</li>
+                    <li>Limited Support</li>
+                  </ul>
+                  <a href="#" class="scroll">Get Started</a>
+                </div>
+              </div>
+              <!----- Price 2 ----->
+              <div class="col-12 col-lg-4 wow fadeIn" data-wow-delay=".8s">
+                <div class="price-item-center text-center">
+                  <h5 class="price-header-center">
+                    Premium
+                  </h5>
+                  <p class="actual-price-center">
+                    $29/month
+                  </p>
+                  <ul class="price-list-center">
+                    <li>10 Websites</li>
+                    <li>15 GB Hosting</li>
+                    <li>Premium Support</li>
+                  </ul>
+                  <a href="#" class="scroll-center">Get Started</a>
+                </div>
+              </div>
+              <!----- Price 3 ----->
+              <div class="col-12 col-lg-4 wow fadeInRightBig" data-wow-delay=".4s">
+                <div class="price-item text-center">
+                  <h5 class="price-header">
+                    Enterprise
+                  </h5>
+                  <p class="actual-price">
+                    $49/month
+                  </p>
+                  <ul class="price-list">
+                    <li>Unlimited Website</li>
+                    <li>50 GB Hosting</li>
+                    <li>Premium Support</li>
+                  </ul>
+                  <a href="#" class="scroll">Get Started</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
 
@@ -131,6 +266,7 @@
     </script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/morphext.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
