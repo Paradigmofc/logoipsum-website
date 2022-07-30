@@ -1,7 +1,7 @@
- /* FONT */
+ /*================= FONT =================*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Mulish&display=swap');
 
-/* ZEROING */
+/*================= ZEROING =================*/
 *{
 	padding: 0;
 	margin: 0;
@@ -38,11 +38,12 @@ ul li{list-style: none;}
 ul {
     padding: 0 !important;
 }
-img{vertical-align: top;}
+img{vertical-align: top;
+width: 100%;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
-/* MAIN SETTINGS */
+/*================= MAIN SETTINGS =================*/
 
 .nav-item {
     font-size: 15px;
@@ -97,7 +98,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     color: #fff;
     filter: none;
 }
-/* OFFER */
+/*================= OFFER =================*/
 .offer {
     margin-top: 100px;
 }
@@ -145,7 +146,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .offer-img {
     animation: offer-img 5s infinite ease;
-
+    width: 580px;
 }
 @keyframes offer-img {
 
@@ -156,7 +157,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     100% {transform: translateY(10px)}
 
 }
-/* BRANDS */
+/*================= BRANDS  =================*/
 .brand__img {
     transition: 0.5s ease;
 }
@@ -167,11 +168,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .subscription {
     margin-top: 160px;
 }
-.subscription__img-block {
+/* .subscription__img-block {
     margin-right: 165px;
-}
+} */
 .subscription__img {
     animation: subscription-img 3s infinite ease;
+    width: 380px;
 }
 @keyframes subscription-img {
 
@@ -220,11 +222,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .metrics {
     margin-top: 160px;
 }
-.metrics__img-block {
+/* .metrics__img-block {
     margin-right: 160px;
-}
+} */
 .metrics__img {
     animation: metrics-img 3s infinite ease;
+    width: 346px;
 }
 @keyframes metrics-img {
 
@@ -411,7 +414,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .scroll {
     font-size: 17px;
-    font-weight: 70;
+    font-weight: 700;
     line-height: 22px;
     text-align: center;
     letter-spacing: -0.531474px;
@@ -428,7 +431,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .scroll-center {
     font-size: 17px;
-    font-weight: 70;
+    font-weight: 700;
     line-height: 22px;
     text-align: center;
     letter-spacing: -0.531474px;

@@ -1,6 +1,235 @@
+@media screen and (max-width: 1200px) {
+    .offer-img {
+        width: 100% !important;
+    }
+    .subscription__img {
+        width: 99% !important;
+    }
+    .metrics__img {
+        width: 99% !important;
+    }
+}
 @media screen and (max-width: 992px) {
     .nav-item {
         margin-right: 0 !important;
     }
-    
+    .offer__title {
+        font-size: 56px;
+        line-height: 50px;
+        margin-bottom: 25px;
+    }
+    .offer__subtitle {
+        font-size: 18px;
+        margin-bottom: 25px;
+        line-height: 25px;
+    }
+    .offer__wrapper .ms-4 {
+        margin: 0 !important;
+    }
+    .offer__wrapper .me-5 {
+        margin: 0 !important;
+    }
+    .subscription {
+        margin-top: 100px;
+    }
+    .subscription__title {
+        font-size: 46px;
+        margin-bottom: 20px;
+        line-height: 47px;
+    }
+    .subscription__subtitle {
+        width: 100%;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .metrics {
+        margin-top: 100px;
+    }
+    .metrics__title {
+        font-size: 46px;
+        line-height: 47px;
+        margin-bottom: 20px;
+    }
+    .metrics__subtitle {
+        width: 100%;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .pricing {
+        margin-top: 80px;
+    }
+    .pricing__title {
+        font-size: 46px;
+        line-height: 50px;
+        width: 95%;
+    }
+    .yearly {
+        padding: 14px 35px;
+    }
+    .monthly {
+        padding: 14px 35px;
+    }
+    .pricing__tablets {
+        gap: 20px;
+    }
+    .actual-price {
+        font-size: 52px;
+    }
+    .actual-price-center {
+        font-size: 52px;
+    }
+    .price-list-center li {
+        font-size: 14px;
+        line-height: 40px;
+    }
+    .price-list li {
+        font-size: 14px;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .offer__title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .offer__subtitle {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .offer__started {
+        padding: 15px 55px;
+        font-size: 16px;
+    }
+    .offer__img-arrow {
+        width: 85%;
+    }
+    .subscription {
+        margin-top: 80px;
+    }
+    .pricing {
+        margin-top: 60px;
+    }
+    .pricing__title-block {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 575px) {
+    .offer {
+        margin-top: 80px;
+        overflow: hidden;
+    }
+    .offer__title {
+        font-size: 36px;
+        line-height: 35px;
+    }
+    .offer__subtitle {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .offer__img {
+        width: 100%;
+        margin-left: 60px;
+    }
+    .offer__started {
+        padding: 12px 50px;
+    }
+    .brands {
+        display: none;
+    }
+    .subscription {
+        margin-top: 60px;
+    }
+    .subscription__wrapper {
+        justify-content: space-evenly !important;
+    }
+    .subscription__title {
+        font-size: 36px;
+        line-height: 35px;
+    }
+    .subscription__subtitle {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .metrics__title {
+        font-size: 36px;
+        line-height: 35px;
+    }
+    .metrics__subtitle {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .pricing__title {
+        font-size: 36px;
+        line-height: 35px;
+    }
+    .pricing__wrapper {
+        padding-bottom: 30px;
+    }
+    .actual-price {
+        font-size: 32px;
+    }
+    .actual-price-center {
+        font-size: 32px;
+    }
+    .scroll {
+        padding: 12px 55px;
+    }
+    .scroll-center {
+        padding: 12px 55px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .header .me-5 {
+        margin: 0 !important; 
+    }
+    .offer {
+        margin-top: 50px;
+    }
+    .offer__title {
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .offer__subtitle {
+        font-size: 16px;
+    }
+    .offer__started {
+        padding: 10px 45px;
+    }
+    .offer__arrow {
+        display: none;
+    }
+    .subscription {
+        margin-top: 50px;
+    }
+    .subscription__title {
+        font-size: 28px;
+        line-height: 25px;
+    }
+    .subscription__subtitle {
+        font-size: 16px;
+    }
+    .metrics {
+        margin-top: 50px;
+    }
+    .metrics__title {
+        font-size: 28px;
+        line-height: 25px;
+    }
+    .metrics__subtitle {
+        font-size: 16px;
+    }
+    .icon__title {
+        font-size: 22px;
+    }
+    .icon__text {
+        font-size: 15px;
+        width: 100%;
+    }
+    .pricing__title {
+        font-size: 28px;
+        line-height: 25px;
+    }
 }
